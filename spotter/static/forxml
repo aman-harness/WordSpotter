@@ -1,0 +1,952 @@
+...generating xml, hold on
+    ' <spot h="300" image="word1sample1.png" w="750" word="about" x="0" y="0"/>'
+
+    ' <spot h="300" image="word1sample2.png" w="750" word="about" x="0" y="0"/>'
+
+    ' <spot h="300" image="word1sample3.png" w="750" word="about" x="0" y="0"/>'
+
+    ' <spot h="300" image="word1sample4.png" w="750" word="about" x="0" y="0"/>'
+
+    ' <spot h="300" image="word1sample5.png" w="750" word="about" x="0" y="0"/>'
+
+    ' <spot h="300" image="word2sample1.png" w="750" word="search" x="0" y="0"/>'
+
+    ' <spot h="300" image="word2sample2.png" w="750" word="search" x="0" y="0"/>'
+
+    ' <spot h="300" image="word2sample3.png" w="750" word="search" x="0" y="0"/>'
+
+    ' <spot h="300" image="word2sample4.png" w="750" word="search" x="0" y="0"/>'
+
+    ' <spot h="300" image="word2sample5.png" w="750" word="search" x="0" y="0"/>'
+
+    ' <spot h="300" image="word3sample1.png" w="750" word="other" x="0" y="0"/>'
+
+    ' <spot h="300" image="word3sample2.png" w="750" word="other" x="0" y="0"/>'
+
+    ' <spot h="300" image="word3sample3.png" w="750" word="other" x="0" y="0"/>'
+
+    ' <spot h="300" image="word3sample4.png" w="750" word="other" x="0" y="0"/>'
+
+    ' <spot h="300" image="word3sample5.png" w="750" word="other" x="0" y="0"/>'
+
+    ' <spot h="300" image="word4sample1.png" w="750" word="which" x="0" y="0"/>'
+
+    ' <spot h="300" image="word4sample2.png" w="750" word="which" x="0" y="0"/>'
+
+    ' <spot h="300" image="word4sample3.png" w="750" word="which" x="0" y="0"/>'
+
+    ' <spot h="300" image="word4sample4.png" w="750" word="which" x="0" y="0"/>'
+
+    ' <spot h="300" image="word4sample5.png" w="750" word="which" x="0" y="0"/>'
+
+    ' <spot h="300" image="word5sample1.png" w="750" word="their" x="0" y="0"/>'
+
+    ' <spot h="300" image="word5sample2.png" w="750" word="their" x="0" y="0"/>'
+
+    ' <spot h="300" image="word5sample3.png" w="750" word="their" x="0" y="0"/>'
+
+    ' <spot h="300" image="word5sample4.png" w="750" word="their" x="0" y="0"/>'
+
+    ' <spot h="300" image="word5sample5.png" w="750" word="their" x="0" y="0"/>'
+
+    ' <spot h="300" image="word6sample1.png" w="750" word="there" x="0" y="0"/>'
+
+    ' <spot h="300" image="word6sample2.png" w="750" word="there" x="0" y="0"/>'
+
+    ' <spot h="300" image="word6sample3.png" w="750" word="there" x="0" y="0"/>'
+
+    ' <spot h="300" image="word6sample4.png" w="750" word="there" x="0" y="0"/>'
+
+    ' <spot h="300" image="word6sample5.png" w="750" word="there" x="0" y="0"/>'
+
+    ' <spot h="300" image="word7sample1.png" w="750" word="contact" x="0" y="...'
+
+    ' <spot h="300" image="word7sample2.png" w="750" word="contact" x="0" y="...'
+
+    ' <spot h="300" image="word7sample3.png" w="750" word="contact" x="0" y="...'
+
+    ' <spot h="300" image="word7sample4.png" w="750" word="contact" x="0" y="...'
+
+    ' <spot h="300" image="word7sample5.png" w="750" word="contact" x="0" y="...'
+
+    ' <spot h="300" image="word8sample1.png" w="750" word="business" x="0" y=...'
+
+    ' <spot h="300" image="word8sample2.png" w="750" word="business" x="0" y=...'
+
+    ' <spot h="300" image="word8sample3.png" w="750" word="business" x="0" y=...'
+
+    ' <spot h="300" image="word8sample4.png" w="750" word="business" x="0" y=...'
+
+    ' <spot h="300" image="word8sample5.png" w="750" word="business" x="0" y=...'
+
+    ' <spot h="300" image="word9sample1.png" w="750" word="online" x="0" y="0"/>'
+
+    ' <spot h="300" image="word9sample2.png" w="750" word="online" x="0" y="0"/>'
+
+    ' <spot h="300" image="word9sample3.png" w="750" word="online" x="0" y="0"/>'
+
+    ' <spot h="300" image="word9sample4.png" w="750" word="online" x="0" y="0"/>'
+
+    ' <spot h="300" image="word9sample5.png" w="750" word="online" x="0" y="0"/>'
+
+    ' <spot h="300" image="word10sample1.png" w="750" word="first" x="0" y="0"/>'
+
+    ' <spot h="300" image="word10sample2.png" w="750" word="first" x="0" y="0"/>'
+
+    ' <spot h="300" image="word10sample3.png" w="750" word="first" x="0" y="0"/>'
+
+    ' <spot h="300" image="word10sample4.png" w="750" word="first" x="0" y="0"/>'
+
+    ' <spot h="300" image="word10sample5.png" w="750" word="first" x="0" y="0"/>'
+
+    ' <spot h="300" image="word11sample1.png" w="750" word="would" x="0" y="0"/>'
+
+    ' <spot h="300" image="word11sample2.png" w="750" word="would" x="0" y="0"/>'
+
+    ' <spot h="300" image="word11sample3.png" w="750" word="would" x="0" y="0"/>'
+
+    ' <spot h="300" image="word11sample4.png" w="750" word="would" x="0" y="0"/>'
+
+    ' <spot h="300" image="word11sample5.png" w="750" word="would" x="0" y="0"/>'
+
+    ' <spot h="300" image="word12sample1.png" w="750" word="services" x="0" y...'
+
+    ' <spot h="300" image="word12sample2.png" w="750" word="services" x="0" y...'
+
+    ' <spot h="300" image="word12sample3.png" w="750" word="services" x="0" y...'
+
+    ' <spot h="300" image="word12sample4.png" w="750" word="services" x="0" y...'
+
+    ' <spot h="300" image="word12sample5.png" w="750" word="services" x="0" y...'
+
+    ' <spot h="300" image="word13sample1.png" w="750" word="these" x="0" y="0"/>'
+
+    ' <spot h="300" image="word13sample2.png" w="750" word="these" x="0" y="0"/>'
+
+    ' <spot h="300" image="word13sample3.png" w="750" word="these" x="0" y="0"/>'
+
+    ' <spot h="300" image="word13sample4.png" w="750" word="these" x="0" y="0"/>'
+
+    ' <spot h="300" image="word13sample5.png" w="750" word="these" x="0" y="0"/>'
+
+    ' <spot h="300" image="word14sample1.png" w="750" word="click" x="0" y="0"/>'
+
+    ' <spot h="300" image="word14sample2.png" w="750" word="click" x="0" y="0"/>'
+
+    ' <spot h="300" image="word14sample3.png" w="750" word="click" x="0" y="0"/>'
+
+    ' <spot h="300" image="word14sample4.png" w="750" word="click" x="0" y="0"/>'
+
+    ' <spot h="300" image="word14sample5.png" w="750" word="click" x="0" y="0"/>'
+
+    ' <spot h="300" image="word15sample1.png" w="750" word="service" x="0" y=...'
+
+    ' <spot h="300" image="word15sample2.png" w="750" word="service" x="0" y=...'
+
+    ' <spot h="300" image="word15sample3.png" w="750" word="service" x="0" y=...'
+
+    ' <spot h="300" image="word15sample4.png" w="750" word="service" x="0" y=...'
+
+    ' <spot h="300" image="word15sample5.png" w="750" word="service" x="0" y=...'
+
+    ' <spot h="300" image="word16sample1.png" w="750" word="price" x="0" y="0"/>'
+
+    ' <spot h="300" image="word16sample2.png" w="750" word="price" x="0" y="0"/>'
+
+    ' <spot h="300" image="word16sample3.png" w="750" word="price" x="0" y="0"/>'
+
+    ' <spot h="300" image="word16sample4.png" w="750" word="price" x="0" y="0"/>'
+
+    ' <spot h="300" image="word16sample5.png" w="750" word="price" x="0" y="0"/>'
+
+    ' <spot h="300" image="word17sample1.png" w="750" word="people" x="0" y="...'
+
+    ' <spot h="300" image="word17sample2.png" w="750" word="people" x="0" y="...'
+
+    ' <spot h="300" image="word17sample3.png" w="750" word="people" x="0" y="...'
+
+    ' <spot h="300" image="word17sample4.png" w="750" word="people" x="0" y="...'
+
+    ' <spot h="300" image="word17sample5.png" w="750" word="people" x="0" y="...'
+
+    ' <spot h="300" image="word18sample1.png" w="750" word="state" x="0" y="0"/>'
+
+    ' <spot h="300" image="word18sample2.png" w="750" word="state" x="0" y="0"/>'
+
+    ' <spot h="300" image="word18sample3.png" w="750" word="state" x="0" y="0"/>'
+
+    ' <spot h="300" image="word18sample4.png" w="750" word="state" x="0" y="0"/>'
+
+    ' <spot h="300" image="word18sample5.png" w="750" word="state" x="0" y="0"/>'
+
+    ' <spot h="300" image="word19sample1.png" w="750" word="email" x="0" y="0"/>'
+
+    ' <spot h="300" image="word19sample2.png" w="750" word="email" x="0" y="0"/>'
+
+    ' <spot h="300" image="word19sample3.png" w="750" word="email" x="0" y="0"/>'
+
+    ' <spot h="300" image="word19sample4.png" w="750" word="email" x="0" y="0"/>'
+
+    ' <spot h="300" image="word19sample5.png" w="750" word="email" x="0" y="0"/>'
+
+    ' <spot h="300" image="word20sample1.png" w="750" word="health" x="0" y="...'
+
+    ' <spot h="300" image="word20sample2.png" w="750" word="health" x="0" y="...'
+
+    ' <spot h="300" image="word20sample3.png" w="750" word="health" x="0" y="...'
+
+    ' <spot h="300" image="word20sample4.png" w="750" word="health" x="0" y="...'
+
+    ' <spot h="300" image="word20sample5.png" w="750" word="health" x="0" y="...'
+
+    ' <spot h="300" image="word21sample1.png" w="750" word="world" x="0" y="0"/>'
+
+    ' <spot h="300" image="word21sample2.png" w="750" word="world" x="0" y="0"/>'
+
+    ' <spot h="300" image="word21sample3.png" w="750" word="world" x="0" y="0"/>'
+
+    ' <spot h="300" image="word21sample4.png" w="750" word="world" x="0" y="0"/>'
+
+    ' <spot h="300" image="word21sample5.png" w="750" word="world" x="0" y="0"/>'
+
+    ' <spot h="300" image="word22sample1.png" w="750" word="products" x="0" y...'
+
+    ' <spot h="300" image="word22sample2.png" w="750" word="products" x="0" y...'
+
+    ' <spot h="300" image="word22sample3.png" w="750" word="products" x="0" y...'
+
+    ' <spot h="300" image="word22sample4.png" w="750" word="products" x="0" y...'
+
+    ' <spot h="300" image="word22sample5.png" w="750" word="products" x="0" y...'
+
+    ' <spot h="300" image="word23sample1.png" w="750" word="music" x="0" y="0"/>'
+
+    ' <spot h="300" image="word23sample2.png" w="750" word="music" x="0" y="0"/>'
+
+    ' <spot h="300" image="word23sample3.png" w="750" word="music" x="0" y="0"/>'
+
+    ' <spot h="300" image="word23sample4.png" w="750" word="music" x="0" y="0"/>'
+
+    ' <spot h="300" image="word23sample5.png" w="750" word="music" x="0" y="0"/>'
+
+    ' <spot h="300" image="word24sample1.png" w="750" word="should" x="0" y="...'
+
+    ' <spot h="300" image="word24sample2.png" w="750" word="should" x="0" y="...'
+
+    ' <spot h="300" image="word24sample3.png" w="750" word="should" x="0" y="...'
+
+    ' <spot h="300" image="word24sample4.png" w="750" word="should" x="0" y="...'
+
+    ' <spot h="300" image="word24sample5.png" w="750" word="should" x="0" y="...'
+
+    ' <spot h="300" image="word25sample1.png" w="750" word="product" x="0" y=...'
+
+    ' <spot h="300" image="word25sample2.png" w="750" word="product" x="0" y=...'
+
+    ' <spot h="300" image="word25sample3.png" w="750" word="product" x="0" y=...'
+
+    ' <spot h="300" image="word25sample4.png" w="750" word="product" x="0" y=...'
+
+    ' <spot h="300" image="word25sample5.png" w="750" word="product" x="0" y=...'
+
+    ' <spot h="300" image="word26sample1.png" w="750" word="system" x="0" y="...'
+
+    ' <spot h="300" image="word26sample2.png" w="750" word="system" x="0" y="...'
+
+    ' <spot h="300" image="word26sample3.png" w="750" word="system" x="0" y="...'
+
+    ' <spot h="300" image="word26sample4.png" w="750" word="system" x="0" y="...'
+
+    ' <spot h="300" image="word26sample5.png" w="750" word="system" x="0" y="...'
+
+    ' <spot h="300" image="word27sample1.png" w="750" word="policy" x="0" y="...'
+
+    ' <spot h="300" image="word27sample2.png" w="750" word="policy" x="0" y="...'
+
+    ' <spot h="300" image="word27sample3.png" w="750" word="policy" x="0" y="...'
+
+    ' <spot h="300" image="word27sample4.png" w="750" word="policy" x="0" y="...'
+
+    ' <spot h="300" image="word27sample5.png" w="750" word="policy" x="0" y="...'
+
+    ' <spot h="300" image="word28sample1.png" w="750" word="number" x="0" y="...'
+
+    ' <spot h="300" image="word28sample2.png" w="750" word="number" x="0" y="...'
+
+    ' <spot h="300" image="word28sample3.png" w="750" word="number" x="0" y="...'
+
+    ' <spot h="300" image="word28sample4.png" w="750" word="number" x="0" y="...'
+
+    ' <spot h="300" image="word28sample5.png" w="750" word="number" x="0" y="...'
+
+    ' <spot h="300" image="word29sample1.png" w="750" word="please" x="0" y="...'
+
+    ' <spot h="300" image="word29sample2.png" w="750" word="please" x="0" y="...'
+
+    ' <spot h="300" image="word29sample3.png" w="750" word="please" x="0" y="...'
+
+    ' <spot h="300" image="word29sample4.png" w="750" word="please" x="0" y="...'
+
+    ' <spot h="300" image="word29sample5.png" w="750" word="please" x="0" y="...'
+
+    ' <spot h="300" image="word30sample1.png" w="750" word="support" x="0" y=...'
+
+    ' <spot h="300" image="word30sample2.png" w="750" word="support" x="0" y=...'
+
+    ' <spot h="300" image="word30sample3.png" w="750" word="support" x="0" y=...'
+
+    ' <spot h="300" image="word30sample4.png" w="750" word="support" x="0" y=...'
+
+    ' <spot h="300" image="word30sample5.png" w="750" word="support" x="0" y=...'
+
+    ' <spot h="300" image="word31sample1.png" w="750" word="message" x="0" y=...'
+
+    ' <spot h="300" image="word31sample2.png" w="750" word="message" x="0" y=...'
+
+    ' <spot h="300" image="word31sample3.png" w="750" word="message" x="0" y=...'
+
+    ' <spot h="300" image="word31sample4.png" w="750" word="message" x="0" y=...'
+
+    ' <spot h="300" image="word31sample5.png" w="750" word="message" x="0" y=...'
+
+    ' <spot h="300" image="word32sample1.png" w="750" word="after" x="0" y="0"/>'
+
+    ' <spot h="300" image="word32sample2.png" w="750" word="after" x="0" y="0"/>'
+
+    ' <spot h="300" image="word32sample3.png" w="750" word="after" x="0" y="0"/>'
+
+    ' <spot h="300" image="word32sample4.png" w="750" word="after" x="0" y="0"/>'
+
+    ' <spot h="300" image="word32sample5.png" w="750" word="after" x="0" y="0"/>'
+
+    ' <spot h="300" image="word33sample1.png" w="750" word="software" x="0" y...'
+
+    ' <spot h="300" image="word33sample2.png" w="750" word="software" x="0" y...'
+
+    ' <spot h="300" image="word33sample3.png" w="750" word="software" x="0" y...'
+
+    ' <spot h="300" image="word33sample4.png" w="750" word="software" x="0" y...'
+
+    ' <spot h="300" image="word33sample5.png" w="750" word="software" x="0" y...'
+
+    ' <spot h="300" image="word34sample1.png" w="750" word="video" x="0" y="0"/>'
+
+    ' <spot h="300" image="word34sample2.png" w="750" word="video" x="0" y="0"/>'
+
+    ' <spot h="300" image="word34sample3.png" w="750" word="video" x="0" y="0"/>'
+
+    ' <spot h="300" image="word34sample4.png" w="750" word="video" x="0" y="0"/>'
+
+    ' <spot h="300" image="word34sample5.png" w="750" word="video" x="0" y="0"/>'
+
+    ' <spot h="300" image="word35sample1.png" w="750" word="where" x="0" y="0"/>'
+
+    ' <spot h="300" image="word35sample2.png" w="750" word="where" x="0" y="0"/>'
+
+    ' <spot h="300" image="word35sample3.png" w="750" word="where" x="0" y="0"/>'
+
+    ' <spot h="300" image="word35sample4.png" w="750" word="where" x="0" y="0"/>'
+
+    ' <spot h="300" image="word35sample5.png" w="750" word="where" x="0" y="0"/>'
+
+    ' <spot h="300" image="word36sample1.png" w="750" word="rights" x="0" y="...'
+
+    ' <spot h="300" image="word36sample2.png" w="750" word="rights" x="0" y="...'
+
+    ' <spot h="300" image="word36sample3.png" w="750" word="rights" x="0" y="...'
+
+    ' <spot h="300" image="word36sample4.png" w="750" word="rights" x="0" y="...'
+
+    ' <spot h="300" image="word36sample5.png" w="750" word="rights" x="0" y="...'
+
+    ' <spot h="300" image="word37sample1.png" w="750" word="public" x="0" y="...'
+
+    ' <spot h="300" image="word37sample2.png" w="750" word="public" x="0" y="...'
+
+    ' <spot h="300" image="word37sample3.png" w="750" word="public" x="0" y="...'
+
+    ' <spot h="300" image="word37sample4.png" w="750" word="public" x="0" y="...'
+
+    ' <spot h="300" image="word37sample5.png" w="750" word="public" x="0" y="...'
+
+    ' <spot h="300" image="word38sample1.png" w="750" word="books" x="0" y="0"/>'
+
+    ' <spot h="300" image="word38sample2.png" w="750" word="books" x="0" y="0"/>'
+
+    ' <spot h="300" image="word38sample3.png" w="750" word="books" x="0" y="0"/>'
+
+    ' <spot h="300" image="word38sample4.png" w="750" word="books" x="0" y="0"/>'
+
+    ' <spot h="300" image="word38sample5.png" w="750" word="books" x="0" y="0"/>'
+
+    ' <spot h="300" image="word39sample1.png" w="750" word="school" x="0" y="...'
+
+    ' <spot h="300" image="word39sample2.png" w="750" word="school" x="0" y="...'
+
+    ' <spot h="300" image="word39sample3.png" w="750" word="school" x="0" y="...'
+
+    ' <spot h="300" image="word39sample4.png" w="750" word="school" x="0" y="...'
+
+    ' <spot h="300" image="word39sample5.png" w="750" word="school" x="0" y="...'
+
+    ' <spot h="300" image="word40sample1.png" w="750" word="through" x="0" y=...'
+
+    ' <spot h="300" image="word40sample2.png" w="750" word="through" x="0" y=...'
+
+    ' <spot h="300" image="word40sample3.png" w="750" word="through" x="0" y=...'
+
+    ' <spot h="300" image="word40sample4.png" w="750" word="through" x="0" y=...'
+
+    ' <spot h="300" image="word40sample5.png" w="750" word="through" x="0" y=...'
+
+    ' <spot h="300" image="word41sample1.png" w="750" word="links" x="0" y="0"/>'
+
+    ' <spot h="300" image="word41sample2.png" w="750" word="links" x="0" y="0"/>'
+
+    ' <spot h="300" image="word41sample3.png" w="750" word="links" x="0" y="0"/>'
+
+    ' <spot h="300" image="word41sample4.png" w="750" word="links" x="0" y="0"/>'
+
+    ' <spot h="300" image="word41sample5.png" w="750" word="links" x="0" y="0"/>'
+
+    ' <spot h="300" image="word42sample1.png" w="750" word="review" x="0" y="...'
+
+    ' <spot h="300" image="word42sample2.png" w="750" word="review" x="0" y="...'
+
+    ' <spot h="300" image="word42sample3.png" w="750" word="review" x="0" y="...'
+
+    ' <spot h="300" image="word42sample4.png" w="750" word="review" x="0" y="...'
+
+    ' <spot h="300" image="word42sample5.png" w="750" word="review" x="0" y="...'
+
+    ' <spot h="300" image="word43sample1.png" w="750" word="years" x="0" y="0"/>'
+
+    ' <spot h="300" image="word43sample2.png" w="750" word="years" x="0" y="0"/>'
+
+    ' <spot h="300" image="word43sample3.png" w="750" word="years" x="0" y="0"/>'
+
+    ' <spot h="300" image="word43sample4.png" w="750" word="years" x="0" y="0"/>'
+
+    ' <spot h="300" image="word43sample5.png" w="750" word="years" x="0" y="0"/>'
+
+    ' <spot h="300" image="word44sample1.png" w="750" word="order" x="0" y="0"/>'
+
+    ' <spot h="300" image="word44sample2.png" w="750" word="order" x="0" y="0"/>'
+
+    ' <spot h="300" image="word44sample3.png" w="750" word="order" x="0" y="0"/>'
+
+    ' <spot h="300" image="word44sample4.png" w="750" word="order" x="0" y="0"/>'
+
+    ' <spot h="300" image="word44sample5.png" w="750" word="order" x="0" y="0"/>'
+
+    ' <spot h="300" image="word45sample1.png" w="750" word="privacy" x="0" y=...'
+
+    ' <spot h="300" image="word45sample2.png" w="750" word="privacy" x="0" y=...'
+
+    ' <spot h="300" image="word45sample3.png" w="750" word="privacy" x="0" y=...'
+
+    ' <spot h="300" image="word45sample4.png" w="750" word="privacy" x="0" y=...'
+
+    ' <spot h="300" image="word45sample5.png" w="750" word="privacy" x="0" y=...'
+
+    ' <spot h="300" image="word46sample1.png" w="750" word="items" x="0" y="0"/>'
+
+    ' <spot h="300" image="word46sample2.png" w="750" word="items" x="0" y="0"/>'
+
+    ' <spot h="300" image="word46sample3.png" w="750" word="items" x="0" y="0"/>'
+
+    ' <spot h="300" image="word46sample4.png" w="750" word="items" x="0" y="0"/>'
+
+    ' <spot h="300" image="word46sample5.png" w="750" word="items" x="0" y="0"/>'
+
+    ' <spot h="300" image="word47sample1.png" w="750" word="company" x="0" y=...'
+
+    ' <spot h="300" image="word47sample2.png" w="750" word="company" x="0" y=...'
+
+    ' <spot h="300" image="word47sample3.png" w="750" word="company" x="0" y=...'
+
+    ' <spot h="300" image="word47sample4.png" w="750" word="company" x="0" y=...'
+
+    ' <spot h="300" image="word47sample5.png" w="750" word="company" x="0" y=...'
+
+    ' <spot h="300" image="word48sample1.png" w="750" word="group" x="0" y="0"/>'
+
+    ' <spot h="300" image="word48sample2.png" w="750" word="group" x="0" y="0"/>'
+
+    ' <spot h="300" image="word48sample3.png" w="750" word="group" x="0" y="0"/>'
+
+    ' <spot h="300" image="word48sample4.png" w="750" word="group" x="0" y="0"/>'
+
+    ' <spot h="300" image="word48sample5.png" w="750" word="group" x="0" y="0"/>'
+
+    ' <spot h="300" image="word49sample1.png" w="750" word="under" x="0" y="0"/>'
+
+    ' <spot h="300" image="word49sample2.png" w="750" word="under" x="0" y="0"/>'
+
+    ' <spot h="300" image="word49sample3.png" w="750" word="under" x="0" y="0"/>'
+
+    ' <spot h="300" image="word49sample4.png" w="750" word="under" x="0" y="0"/>'
+
+    ' <spot h="300" image="word49sample5.png" w="750" word="under" x="0" y="0"/>'
+
+    ' <spot h="300" image="word50sample1.png" w="750" word="general" x="0" y=...'
+
+    ' <spot h="300" image="word50sample2.png" w="750" word="general" x="0" y=...'
+
+    ' <spot h="300" image="word50sample3.png" w="750" word="general" x="0" y=...'
+
+    ' <spot h="300" image="word50sample4.png" w="750" word="general" x="0" y=...'
+
+    ' <spot h="300" image="word50sample5.png" w="750" word="general" x="0" y=...'
+
+    ' <spot h="300" image="word51sample1.png" w="750" word="research" x="0" y...'
+
+    ' <spot h="300" image="word51sample2.png" w="750" word="research" x="0" y...'
+
+    ' <spot h="300" image="word51sample3.png" w="750" word="research" x="0" y...'
+
+    ' <spot h="300" image="word51sample4.png" w="750" word="research" x="0" y...'
+
+    ' <spot h="300" image="word51sample5.png" w="750" word="research" x="0" y...'
+
+    ' <spot h="300" image="word52sample1.png" w="750" word="january" x="0" y=...'
+
+    ' <spot h="300" image="word52sample2.png" w="750" word="january" x="0" y=...'
+
+    ' <spot h="300" image="word52sample3.png" w="750" word="january" x="0" y=...'
+
+    ' <spot h="300" image="word52sample4.png" w="750" word="january" x="0" y=...'
+
+    ' <spot h="300" image="word52sample5.png" w="750" word="january" x="0" y=...'
+
+    ' <spot h="300" image="word53sample1.png" w="750" word="united" x="0" y="...'
+
+    ' <spot h="300" image="word53sample2.png" w="750" word="united" x="0" y="...'
+
+    ' <spot h="300" image="word53sample3.png" w="750" word="united" x="0" y="...'
+
+    ' <spot h="300" image="word53sample4.png" w="750" word="united" x="0" y="...'
+
+    ' <spot h="300" image="word53sample5.png" w="750" word="united" x="0" y="...'
+
+    ' <spot h="300" image="word54sample1.png" w="750" word="hotel" x="0" y="0"/>'
+
+    ' <spot h="300" image="word54sample2.png" w="750" word="hotel" x="0" y="0"/>'
+
+    ' <spot h="300" image="word54sample3.png" w="750" word="hotel" x="0" y="0"/>'
+
+    ' <spot h="300" image="word54sample4.png" w="750" word="hotel" x="0" y="0"/>'
+
+    ' <spot h="300" image="word54sample5.png" w="750" word="hotel" x="0" y="0"/>'
+
+    ' <spot h="300" image="word55sample1.png" w="750" word="center" x="0" y="...'
+
+    ' <spot h="300" image="word55sample2.png" w="750" word="center" x="0" y="...'
+
+    ' <spot h="300" image="word55sample3.png" w="750" word="center" x="0" y="...'
+
+    ' <spot h="300" image="word55sample4.png" w="750" word="center" x="0" y="...'
+
+    ' <spot h="300" image="word55sample5.png" w="750" word="center" x="0" y="...'
+
+    ' <spot h="300" image="word56sample1.png" w="750" word="store" x="0" y="0"/>'
+
+    ' <spot h="300" image="word56sample2.png" w="750" word="store" x="0" y="0"/>'
+
+    ' <spot h="300" image="word56sample3.png" w="750" word="store" x="0" y="0"/>'
+
+    ' <spot h="300" image="word56sample4.png" w="750" word="store" x="0" y="0"/>'
+
+    ' <spot h="300" image="word56sample5.png" w="750" word="store" x="0" y="0"/>'
+
+    ' <spot h="300" image="word57sample1.png" w="750" word="travel" x="0" y="...'
+
+    ' <spot h="300" image="word57sample2.png" w="750" word="travel" x="0" y="...'
+
+    ' <spot h="300" image="word57sample3.png" w="750" word="travel" x="0" y="...'
+
+    ' <spot h="300" image="word57sample4.png" w="750" word="travel" x="0" y="...'
+
+    ' <spot h="300" image="word57sample5.png" w="750" word="travel" x="0" y="...'
+
+    ' <spot h="300" image="word58sample1.png" w="750" word="comments" x="0" y...'
+
+    ' <spot h="300" image="word58sample2.png" w="750" word="comments" x="0" y...'
+
+    ' <spot h="300" image="word58sample3.png" w="750" word="comments" x="0" y...'
+
+    ' <spot h="300" image="word58sample4.png" w="750" word="comments" x="0" y...'
+
+    ' <spot h="300" image="word58sample5.png" w="750" word="comments" x="0" y...'
+
+    ' <spot h="300" image="word59sample1.png" w="750" word="report" x="0" y="...'
+
+    ' <spot h="300" image="word59sample2.png" w="750" word="report" x="0" y="...'
+
+    ' <spot h="300" image="word59sample3.png" w="750" word="report" x="0" y="...'
+
+    ' <spot h="300" image="word59sample4.png" w="750" word="report" x="0" y="...'
+
+    ' <spot h="300" image="word59sample5.png" w="750" word="report" x="0" y="...'
+
+    ' <spot h="300" image="word60sample1.png" w="750" word="member" x="0" y="...'
+
+    ' <spot h="300" image="word60sample2.png" w="750" word="member" x="0" y="...'
+
+    ' <spot h="300" image="word60sample3.png" w="750" word="member" x="0" y="...'
+
+    ' <spot h="300" image="word60sample4.png" w="750" word="member" x="0" y="...'
+
+    ' <spot h="300" image="word60sample5.png" w="750" word="member" x="0" y="...'
+
+    ' <spot h="300" image="word61sample1.png" w="750" word="details" x="0" y=...'
+
+    ' <spot h="300" image="word61sample2.png" w="750" word="details" x="0" y=...'
+
+    ' <spot h="300" image="word61sample3.png" w="750" word="details" x="0" y=...'
+
+    ' <spot h="300" image="word61sample4.png" w="750" word="details" x="0" y=...'
+
+    ' <spot h="300" image="word61sample5.png" w="750" word="details" x="0" y=...'
+
+    ' <spot h="300" image="word62sample1.png" w="750" word="terms" x="0" y="0"/>'
+
+    ' <spot h="300" image="word62sample2.png" w="750" word="terms" x="0" y="0"/>'
+
+    ' <spot h="300" image="word62sample3.png" w="750" word="terms" x="0" y="0"/>'
+
+    ' <spot h="300" image="word62sample4.png" w="750" word="terms" x="0" y="0"/>'
+
+    ' <spot h="300" image="word62sample5.png" w="750" word="terms" x="0" y="0"/>'
+
+    ' <spot h="300" image="word63sample1.png" w="750" word="before" x="0" y="...'
+
+    ' <spot h="300" image="word63sample2.png" w="750" word="before" x="0" y="...'
+
+    ' <spot h="300" image="word63sample3.png" w="750" word="before" x="0" y="...'
+
+    ' <spot h="300" image="word63sample4.png" w="750" word="before" x="0" y="...'
+
+    ' <spot h="300" image="word63sample5.png" w="750" word="before" x="0" y="...'
+
+    ' <spot h="300" image="word64sample1.png" w="750" word="hotels" x="0" y="...'
+
+    ' <spot h="300" image="word64sample2.png" w="750" word="hotels" x="0" y="...'
+
+    ' <spot h="300" image="word64sample3.png" w="750" word="hotels" x="0" y="...'
+
+    ' <spot h="300" image="word64sample4.png" w="750" word="hotels" x="0" y="...'
+
+    ' <spot h="300" image="word64sample5.png" w="750" word="hotels" x="0" y="...'
+
+    ' <spot h="300" image="word65sample1.png" w="750" word="right" x="0" y="0"/>'
+
+    ' <spot h="300" image="word65sample2.png" w="750" word="right" x="0" y="0"/>'
+
+    ' <spot h="300" image="word65sample3.png" w="750" word="right" x="0" y="0"/>'
+
+    ' <spot h="300" image="word65sample4.png" w="750" word="right" x="0" y="0"/>'
+
+    ' <spot h="300" image="word65sample5.png" w="750" word="right" x="0" y="0"/>'
+
+    ' <spot h="300" image="word66sample1.png" w="750" word="because" x="0" y=...'
+
+    ' <spot h="300" image="word66sample2.png" w="750" word="because" x="0" y=...'
+
+    ' <spot h="300" image="word66sample3.png" w="750" word="because" x="0" y=...'
+
+    ' <spot h="300" image="word66sample4.png" w="750" word="because" x="0" y=...'
+
+    ' <spot h="300" image="word66sample5.png" w="750" word="because" x="0" y=...'
+
+    ' <spot h="300" image="word67sample1.png" w="750" word="local" x="0" y="0"/>'
+
+    ' <spot h="300" image="word67sample2.png" w="750" word="local" x="0" y="0"/>'
+
+    ' <spot h="300" image="word67sample3.png" w="750" word="local" x="0" y="0"/>'
+
+    ' <spot h="300" image="word67sample4.png" w="750" word="local" x="0" y="0"/>'
+
+    ' <spot h="300" image="word67sample5.png" w="750" word="local" x="0" y="0"/>'
+
+    ' <spot h="300" image="word68sample1.png" w="750" word="those" x="0" y="0"/>'
+
+    ' <spot h="300" image="word68sample2.png" w="750" word="those" x="0" y="0"/>'
+
+    ' <spot h="300" image="word68sample3.png" w="750" word="those" x="0" y="0"/>'
+
+    ' <spot h="300" image="word68sample4.png" w="750" word="those" x="0" y="0"/>'
+
+    ' <spot h="300" image="word68sample5.png" w="750" word="those" x="0" y="0"/>'
+
+    ' <spot h="300" image="word69sample1.png" w="750" word="using" x="0" y="0"/>'
+
+    ' <spot h="300" image="word69sample2.png" w="750" word="using" x="0" y="0"/>'
+
+    ' <spot h="300" image="word69sample3.png" w="750" word="using" x="0" y="0"/>'
+
+    ' <spot h="300" image="word69sample4.png" w="750" word="using" x="0" y="0"/>'
+
+    ' <spot h="300" image="word69sample5.png" w="750" word="using" x="0" y="0"/>'
+
+    ' <spot h="300" image="word70sample1.png" w="750" word="results" x="0" y=...'
+
+    ' <spot h="300" image="word70sample2.png" w="750" word="results" x="0" y=...'
+
+    ' <spot h="300" image="word70sample3.png" w="750" word="results" x="0" y=...'
+
+    ' <spot h="300" image="word70sample4.png" w="750" word="results" x="0" y=...'
+
+    ' <spot h="300" image="word70sample5.png" w="750" word="results" x="0" y=...'
+
+    ' <spot h="300" image="word71sample1.png" w="750" word="office" x="0" y="...'
+
+    ' <spot h="300" image="word71sample2.png" w="750" word="office" x="0" y="...'
+
+    ' <spot h="300" image="word71sample3.png" w="750" word="office" x="0" y="...'
+
+    ' <spot h="300" image="word71sample4.png" w="750" word="office" x="0" y="...'
+
+    ' <spot h="300" image="word71sample5.png" w="750" word="office" x="0" y="...'
+
+    ' <spot h="300" image="word72sample1.png" w="750" word="national" x="0" y...'
+
+    ' <spot h="300" image="word72sample2.png" w="750" word="national" x="0" y...'
+
+    ' <spot h="300" image="word72sample3.png" w="750" word="national" x="0" y...'
+
+    ' <spot h="300" image="word72sample4.png" w="750" word="national" x="0" y...'
+
+    ' <spot h="300" image="word72sample5.png" w="750" word="national" x="0" y...'
+
+    ' <spot h="300" image="word73sample1.png" w="750" word="design" x="0" y="...'
+
+    ' <spot h="300" image="word73sample2.png" w="750" word="design" x="0" y="...'
+
+    ' <spot h="300" image="word73sample3.png" w="750" word="design" x="0" y="...'
+
+    ' <spot h="300" image="word73sample4.png" w="750" word="design" x="0" y="...'
+
+    ' <spot h="300" image="word73sample5.png" w="750" word="design" x="0" y="...'
+
+    ' <spot h="300" image="word74sample1.png" w="750" word="posted" x="0" y="...'
+
+    ' <spot h="300" image="word74sample2.png" w="750" word="posted" x="0" y="...'
+
+    ' <spot h="300" image="word74sample3.png" w="750" word="posted" x="0" y="...'
+
+    ' <spot h="300" image="word74sample4.png" w="750" word="posted" x="0" y="...'
+
+    ' <spot h="300" image="word74sample5.png" w="750" word="posted" x="0" y="...'
+
+    ' <spot h="300" image="word75sample1.png" w="750" word="internet" x="0" y...'
+
+    ' <spot h="300" image="word75sample2.png" w="750" word="internet" x="0" y...'
+
+    ' <spot h="300" image="word75sample3.png" w="750" word="internet" x="0" y...'
+
+    ' <spot h="300" image="word75sample4.png" w="750" word="internet" x="0" y...'
+
+    ' <spot h="300" image="word75sample5.png" w="750" word="internet" x="0" y...'
+
+    ' <spot h="300" image="word76sample1.png" w="750" word="address" x="0" y=...'
+
+    ' <spot h="300" image="word76sample2.png" w="750" word="address" x="0" y=...'
+
+    ' <spot h="300" image="word76sample3.png" w="750" word="address" x="0" y=...'
+
+    ' <spot h="300" image="word76sample4.png" w="750" word="address" x="0" y=...'
+
+    ' <spot h="300" image="word76sample5.png" w="750" word="address" x="0" y=...'
+
+    ' <spot h="300" image="word77sample1.png" w="750" word="within" x="0" y="...'
+
+    ' <spot h="300" image="word77sample2.png" w="750" word="within" x="0" y="...'
+
+    ' <spot h="300" image="word77sample3.png" w="750" word="within" x="0" y="...'
+
+    ' <spot h="300" image="word77sample4.png" w="750" word="within" x="0" y="...'
+
+    ' <spot h="300" image="word77sample5.png" w="750" word="within" x="0" y="...'
+
+    ' <spot h="300" image="word78sample1.png" w="750" word="states" x="0" y="...'
+
+    ' <spot h="300" image="word78sample2.png" w="750" word="states" x="0" y="...'
+
+    ' <spot h="300" image="word78sample3.png" w="750" word="states" x="0" y="...'
+
+    ' <spot h="300" image="word78sample4.png" w="750" word="states" x="0" y="...'
+
+    ' <spot h="300" image="word78sample5.png" w="750" word="states" x="0" y="...'
+
+    ' <spot h="300" image="word79sample1.png" w="750" word="phone" x="0" y="0"/>'
+
+    ' <spot h="300" image="word79sample2.png" w="750" word="phone" x="0" y="0"/>'
+
+    ' <spot h="300" image="word79sample3.png" w="750" word="phone" x="0" y="0"/>'
+
+    ' <spot h="300" image="word79sample4.png" w="750" word="phone" x="0" y="0"/>'
+
+    ' <spot h="300" image="word79sample5.png" w="750" word="phone" x="0" y="0"/>'
+
+    ' <spot h="300" image="word80sample1.png" w="750" word="shipping" x="0" y...'
+
+    ' <spot h="300" image="word80sample2.png" w="750" word="shipping" x="0" y...'
+
+    ' <spot h="300" image="word80sample3.png" w="750" word="shipping" x="0" y...'
+
+    ' <spot h="300" image="word80sample4.png" w="750" word="shipping" x="0" y...'
+
+    ' <spot h="300" image="word80sample5.png" w="750" word="shipping" x="0" y...'
+
+    ' <spot h="300" image="word81sample1.png" w="750" word="reserved" x="0" y...'
+
+    ' <spot h="300" image="word81sample2.png" w="750" word="reserved" x="0" y...'
+
+    ' <spot h="300" image="word81sample3.png" w="750" word="reserved" x="0" y...'
+
+    ' <spot h="300" image="word81sample4.png" w="750" word="reserved" x="0" y...'
+
+    ' <spot h="300" image="word81sample5.png" w="750" word="reserved" x="0" y...'
+
+    ' <spot h="300" image="word82sample1.png" w="750" word="subject" x="0" y=...'
+
+    ' <spot h="300" image="word82sample2.png" w="750" word="subject" x="0" y=...'
+
+    ' <spot h="300" image="word82sample3.png" w="750" word="subject" x="0" y=...'
+
+    ' <spot h="300" image="word82sample4.png" w="750" word="subject" x="0" y=...'
+
+    ' <spot h="300" image="word82sample5.png" w="750" word="subject" x="0" y=...'
+
+    ' <spot h="300" image="word83sample1.png" w="750" word="between" x="0" y=...'
+
+    ' <spot h="300" image="word83sample2.png" w="750" word="between" x="0" y=...'
+
+    ' <spot h="300" image="word83sample3.png" w="750" word="between" x="0" y=...'
+
+    ' <spot h="300" image="word83sample4.png" w="750" word="between" x="0" y=...'
+
+    ' <spot h="300" image="word83sample5.png" w="750" word="between" x="0" y=...'
+
+    ' <spot h="300" image="word84sample1.png" w="750" word="forum" x="0" y="0"/>'
+
+    ' <spot h="300" image="word84sample2.png" w="750" word="forum" x="0" y="0"/>'
+
+    ' <spot h="300" image="word84sample3.png" w="750" word="forum" x="0" y="0"/>'
+
+    ' <spot h="300" image="word84sample4.png" w="750" word="forum" x="0" y="0"/>'
+
+    ' <spot h="300" image="word84sample5.png" w="750" word="forum" x="0" y="0"/>'
+
+    ' <spot h="300" image="word85sample1.png" w="750" word="family" x="0" y="...'
+
+    ' <spot h="300" image="word85sample2.png" w="750" word="family" x="0" y="...'
+
+    ' <spot h="300" image="word85sample3.png" w="750" word="family" x="0" y="...'
+
+    ' <spot h="300" image="word85sample4.png" w="750" word="family" x="0" y="...'
+
+    ' <spot h="300" image="word85sample5.png" w="750" word="family" x="0" y="...'
+
+    ' <spot h="300" image="word86sample1.png" w="750" word="based" x="0" y="0"/>'
+
+    ' <spot h="300" image="word86sample2.png" w="750" word="based" x="0" y="0"/>'
+
+    ' <spot h="300" image="word86sample3.png" w="750" word="based" x="0" y="0"/>'
+
+    ' <spot h="300" image="word86sample4.png" w="750" word="based" x="0" y="0"/>'
+
+    ' <spot h="300" image="word86sample5.png" w="750" word="based" x="0" y="0"/>'
+
+    ' <spot h="300" image="word87sample1.png" w="750" word="black" x="0" y="0"/>'
+
+    ' <spot h="300" image="word87sample2.png" w="750" word="black" x="0" y="0"/>'
+
+    ' <spot h="300" image="word87sample3.png" w="750" word="black" x="0" y="0"/>'
+
+    ' <spot h="300" image="word87sample4.png" w="750" word="black" x="0" y="0"/>'
+
+    ' <spot h="300" image="word87sample5.png" w="750" word="black" x="0" y="0"/>'
+
+    ' <spot h="300" image="word88sample1.png" w="750" word="check" x="0" y="0"/>'
+
+    ' <spot h="300" image="word88sample2.png" w="750" word="check" x="0" y="0"/>'
+
+    ' <spot h="300" image="word88sample3.png" w="750" word="check" x="0" y="0"/>'
+
+    ' <spot h="300" image="word88sample4.png" w="750" word="check" x="0" y="0"/>'
+
+    ' <spot h="300" image="word88sample5.png" w="750" word="check" x="0" y="0"/>'
+
+    ' <spot h="300" image="word89sample1.png" w="750" word="special" x="0" y=...'
+
+    ' <spot h="300" image="word89sample2.png" w="750" word="special" x="0" y=...'
+
+    ' <spot h="300" image="word89sample3.png" w="750" word="special" x="0" y=...'
+
+    ' <spot h="300" image="word89sample4.png" w="750" word="special" x="0" y=...'
+
+    ' <spot h="300" image="word89sample5.png" w="750" word="special" x="0" y=...'
+
+    ' <spot h="300" image="word90sample1.png" w="750" word="prices" x="0" y="...'
+
+    ' <spot h="300" image="word90sample2.png" w="750" word="prices" x="0" y="...'
+
+    ' <spot h="300" image="word90sample3.png" w="750" word="prices" x="0" y="...'
+
+    ' <spot h="300" image="word90sample4.png" w="750" word="prices" x="0" y="...'
+
+    ' <spot h="300" image="word90sample5.png" w="750" word="prices" x="0" y="...'
+
+    ' <spot h="300" image="word91sample1.png" w="750" word="website" x="0" y=...'
+
+    ' <spot h="300" image="word91sample2.png" w="750" word="website" x="0" y=...'
+
+    ' <spot h="300" image="word91sample3.png" w="750" word="website" x="0" y=...'
+
+    ' <spot h="300" image="word91sample4.png" w="750" word="website" x="0" y=...'
+
+    ' <spot h="300" image="word91sample5.png" w="750" word="website" x="0" y=...'
+
+    ' <spot h="300" image="word92sample1.png" w="750" word="index" x="0" y="0"/>'
+
+    ' <spot h="300" image="word92sample2.png" w="750" word="index" x="0" y="0"/>'
+
+    ' <spot h="300" image="word92sample3.png" w="750" word="index" x="0" y="0"/>'
+
+    ' <spot h="300" image="word92sample4.png" w="750" word="index" x="0" y="0"/>'
+
+    ' <spot h="300" image="word92sample5.png" w="750" word="index" x="0" y="0"/>'
+
+    ' <spot h="300" image="word93sample1.png" w="750" word="being" x="0" y="0"/>'
+
+    ' <spot h="300" image="word93sample2.png" w="750" word="being" x="0" y="0"/>'
+
+    ' <spot h="300" image="word93sample3.png" w="750" word="being" x="0" y="0"/>'
+
+    ' <spot h="300" image="word93sample4.png" w="750" word="being" x="0" y="0"/>'
+
+    ' <spot h="300" image="word93sample5.png" w="750" word="being" x="0" y="0"/>'
+
+    ' <spot h="300" image="word94sample1.png" w="750" word="women" x="0" y="0"/>'
+
+    ' <spot h="300" image="word94sample2.png" w="750" word="women" x="0" y="0"/>'
+
+    ' <spot h="300" image="word94sample3.png" w="750" word="women" x="0" y="0"/>'
+
+    ' <spot h="300" image="word94sample4.png" w="750" word="women" x="0" y="0"/>'
+
+    ' <spot h="300" image="word94sample5.png" w="750" word="women" x="0" y="0"/>'
+
+    ' <spot h="300" image="word95sample1.png" w="750" word="today" x="0" y="0"/>'
+
+    ' <spot h="300" image="word95sample2.png" w="750" word="today" x="0" y="0"/>'
+
+    ' <spot h="300" image="word95sample3.png" w="750" word="today" x="0" y="0"/>'
+
+    ' <spot h="300" image="word95sample4.png" w="750" word="today" x="0" y="0"/>'
+
+    ' <spot h="300" image="word95sample5.png" w="750" word="today" x="0" y="0"/>'
+
+...generating images, done
