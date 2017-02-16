@@ -39,7 +39,7 @@ def init():
 			if sample[x].timesShown != 0:
 				sample[x].succesRatio = sample[x].timesCorrected / float(sample[x].timesShown)
 				sample.save()
-				q.put([sample[x].succesRatio, sample[x].name])
+				q.put([abs(0.5 - sample[x].succesRatio), sample[x].name])
 
 	for x in range(sample.count()):
 		q.put([sample[x].succesRatio, sample[x].name])
