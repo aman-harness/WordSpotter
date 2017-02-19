@@ -1,19 +1,107 @@
-{% load static %}
-
+<!doctype html>
+<head>
+	<title>Word Spotter</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+		.user {
+			border: 1px solid #ededed; 
+			cursor: pointer; 
+			padding: 10px; 
+			margin-bottom: 10px;}
+		.active {
+			border: 1px solid #0066cc; 
+			background: #eeeeee;
+		}
+	</style>
+</head>
+<h2>Word Spotter</h2>
 <body>
-    <div class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-              <a href="/judge" class="navbar-brand">CodeJudge-IIT Jodhpur</a>
-            </div>    
-        </div>
-    </div>
-    <br><br><br><br>
-    <div class="container-fluid">
-    	<div class="row-fluid" align="center">
-    		<h3>Your solution is submitted successfully.</h3>
-    		<p>You could view your results at <a href="/judge/submission">{{1}}</a></p>
-    		<img src="{{str1}}" alt="My image"/>
-    	</div>
-    </div>
+	<div class = "container-fluid">
+		<div class = "row-fluid">
+			<div style="margin-left: 120px; margin-right: 120px;">
+				<img src="{{str0}}" class = "user" width="200" height="200"  id = "0" name = "{{str0}}"/>
+			    <img src="{{str1}}" class = "user" width="200" height="200" id = "1" name = "{{str1}}"/>
+			    <img src="{{str2}}" class = "user" width="200" height="200" id = "2" name = "{{str2"/>
+			    <img src="{{str3}}" class = "user" width="200" height="200"  id = "3" name = "{{str3}}"/>
+			    <img src="{{str4}}" class = "user" width="200" height="200"  id = "4" name = "{{str4}}"/>
+			    <img src="{{str5}}" class = "user" width="200" height="200" id = "5" name = "{{str5}}"/>
+			    <img src="{{str6}}" class = "user" width="200" height="200" id = "6" name = "{{str6}}"/>
+			    <img src="{{str7}}" class = "user" width="200" height="200"  id = "7" name = "{{str7}}"/>
+			   	<img src="{{str8}}" class = "user" width="200" height="200" id = "8" name = "{{str8}}"/>
+			    <img src="{{str9}}" class = "user" width="200" height="200" id = "9" name = "{{str9}}"/>
+			</div>
+		</div>
+		<div class = "row-fluid">
+			<div class = "col-md-5"></div>
+			{% csrf_token %}
+			<button type="button" class="btn btn-success" id = "go" style = "display: flex; justify-content: center;">Submit</button>
+ 
+		</div>
+	</div>
 </body>
+<script type="text/javascript">
+	$.ajaxSetup({ 
+	     beforeSend: function(xhr, settings) {
+	         function getCookie(name) {
+	             var cookieValue = null;
+	             if (document.cookie && document.cookie != '') {
+	                 var cookies = document.cookie.split(';');
+	                 for (var i = 0; i < cookies.length; i++) {
+	                     var cookie = jQuery.trim(cookies[i]);
+	                     if (cookie.substring(0, name.length + 1) == (name + '=')) {
+	                         cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+	                         break;
+	                     }
+	                 }
+	             }
+	             return cookieValue;
+	         }
+	         if (!(/^http:.*/.test(settings.url) || /^https:.*/.test(settings.url))) {
+	             // Only send the token to relative URLs i.e. locally.
+	             xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));
+	         }
+	     } 
+	});
+</script>
+<script>
+	// initializing the array
+	var data = [];
+	var length = 10; // user defined length
+ 
+	for(var i = 0; i < length; i++) {
+	    data.push(0);
+	}
+	//console.log(data);
+	var img_id = 0;
+ 
+	$('.user').on('click', function() {
+		var o = $(this);
+	    o.toggleClass('active');
+	    console.log(o[0].name);
+	    data[o[0].id] ^= true;
+	});
+ 
+	var s = document.getElementsByClassName('user');
+	var final = {};
+ 
+    $("#go").click(function(){
+		for(var i = 0; i < length; i++) {
+			var p = s[i].name;
+		    final[p] = data[i];
+		}
+		console.log(typeof(final))
+	    (function submit(){
+		    $.ajax({
+		    	type:"POST",
+		    	url:"/spotter/submit/",
+		    	dataType:"json",
+		    	data: final,
+		    	success:function(data){
+		    		window.location.reload();
+		      	}
+		    });
+	    })();
+    });
+</script>
+</html>

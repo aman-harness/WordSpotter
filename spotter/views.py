@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.http import HttpResponse, HttpResponseRedirect, Http404, HttpResponseForbidden
 from spotter.models import *
 import Queue as Q
 # Create your views here.
@@ -39,10 +40,22 @@ def init():
 			if sample[x].timesShown != 0:
 				sample[x].succesRatio = sample[x].timesCorrected / float(sample[x].timesShown)
 				sample.save()
-				q.put([abs(0.5 - sample[x].succesRatio), sample[x].name])
+				q.put([sample[x].succesRatio, sample[x].name])
 
 	for x in range(sample.count()):
 		q.put([sample[x].succesRatio, sample[x].name])
+
+
+def receive(request):
+	if request.method == "POST":
+		print "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
+		for key, value in request.POST.items():
+			print key[8:-4]
+			s = Sample.objects.get(name = key[8:-4])
+			print s
+			print "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+			print key, value
+		return HttpResponseRedirect("/spotter")
 
 
 def index(request):
@@ -54,9 +67,7 @@ def index(request):
 		context["str" + str(x)] = "/static/" + str(q.queue[x][1]) + ".png"
 		print q.queue[x][1], q.queue[x][0]
 
-	# context["str1"] = "/static/aman.jpg"
-
 	print context
-	return render(request, 'users/index2.html', context)
+	return render(request, 'users/index.html', context)
 
 

@@ -4,7 +4,7 @@ from decimal import Decimal
 from django.db import models
 
 class General(models.Model):
-	# count of words shiwn uptill now
+	# count of words shown uptill now
 	count_w = models.IntegerField(default=0)
 
 	# counts of words shown uptill now
