@@ -3,14 +3,13 @@ from django.http import HttpResponse, HttpResponseRedirect, Http404, HttpRespons
 from spotter.models import *
 import Queue as Q
 import decimal, json
+import random
 # Create your views here.
 
 sampleSizeFraction = 4
 
 words_remaing = 0
 currentWord = 0
-
-q = Q.PriorityQueue()
 
 def generate_matrix(word, start_from, sample_n):
 	for x in range(start_from, start_from + word):
@@ -59,33 +58,67 @@ def init():
 		new_element.save()
 		rank = rank + 1
 
+def init_m():
+	q_max = Q.PriorityQueue()
+	q_min = Q.PriorityQueue()
+
+	print "Max, min running"
+
+	sample = Sample.objects.filter()
+
+	n_elements = sample.count()
+	r = list(range(n_elements))
+	random.shuffle(r)
+
+	for x in r:
+		q_max.put([abs(sample[x].succesRatio - decimal.Decimal(0)), sample[x].name])
+		
+	random.shuffle(r)
+	for x in r:
+		q_min.put([abs(sample[x].succesRatio - decimal.Decimal(1)), sample[x].name])
+
+	PQ_min.objects.all().delete()
+	PQ_max.objects.all().delete()
+
+	rank = 0
+	for x in range(sample.count()):
+		element = q_max.get()
+		new_element = PQ_max(names = element[1], rank = rank)
+		new_element.save()
+
+		element = q_min.get()
+		new_element = PQ_min(names = element[1], rank = rank)
+		new_element.save()
+		rank = rank + 1
+
 
 def receive(request):
 	if request.method == "POST":
-		# print request.POST.items()
 		for key, value in request.POST.items():
 
-			# import pdb; pdb.set_trace()
-			# print key[8:-4]
 			sample = Sample.objects.get(name = key[8:-4])
 
-			# print "Correct ->" + key[8:-4]
 			if value == "1":
 				sample.timesCorrected = int(sample.timesCorrected) + 1
 
-			# print sample.timesShown, "--------------!!!!!"
 			sample.timesShown = int(sample.timesShown) + 1
 
 			sample.save()
 
-			# print sample.timesShown, "--------------!!!!!"
 
 			print key, value
 
 	images = PQ.objects.all().order_by("id")
-	for x in range(9):
+	images_min = PQ_min.objects.all().order_by("id")
+	images_max = PQ_max.objects.all().order_by("id")
+
+
+	for x in range(4):
 		print "deleted -- >", images[x].names
 		images[x].delete()	
+
+	images_min[0].delete()
+	images_max[0].delete()
 
 	name = "Aman"
 	return HttpResponse(json.dumps({'name': name}), content_type="application/json")
@@ -97,21 +130,31 @@ def index(request):
 
 	print cnt
 
-	if cnt <= 8:
+	if cnt <= 5:
 	# if words_remaing <= 8:
 		init()
+		init_m()
 
 	context = {}
 	images = PQ.objects.all().order_by("id")
+	images_min = PQ_min.objects.all().order_by("id")
+	images_max = PQ_max.objects.all().order_by("id")
 
-	# import pdb; pdb.set_trace()
 
-	for x in range(9):
-		# context["str" + str(x)] = "/static/" + str(q.queue[x][1]) + ".png"
+	for x in range(4):
 		context["str" + str(x)] = "/static/" + images[x].names + ".png"
-		# print q.queue[x][1], q.queue[x][0]
 
-	# print context
+	context["str" + str(4)] = "/static/" + images_min[0].names + ".png"
+	context["str" + str(5)] = "/static/" + images_max[0].names + ".png"
+
+	print context
+
 	return render(request, 'users/index.html', context)
+
+
+def redir(request):
+	context = {}
+	context['title'] = "spotter/"
+	return render(request, 'users/basic.html', context)
 
 

@@ -30,6 +30,17 @@ class Sample(models.Model):
     # The success ratio matrix
     succesRatio = models.DecimalField(max_digits=20,decimal_places=4, default=Decimal('0.5'))
 
+# The priority queue for ambigous cases
 class PQ(models.Model):
+    names = models.CharField(default = "", max_length = 20)
+    rank = models.IntegerField(default = -1)
+
+# The priority queue for straight cases max
+class PQ_max(models.Model):
+    names = models.CharField(default = "", max_length = 20)
+    rank = models.IntegerField(default = -1)
+
+# The priority queue for straight cases max
+class PQ_min(models.Model):
     names = models.CharField(default = "", max_length = 20)
     rank = models.IntegerField(default = -1)
