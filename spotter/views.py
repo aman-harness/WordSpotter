@@ -25,7 +25,7 @@ def generate_matrix(word, start_from, sample_n):
 		word = Word(count_n = sample_n, idd = x)
 		word.save()
 		for y in range(1, 1 + sample_n):
-			name = "word" + str(x) + "sample" + str(y) + ".png"
+			name = "word" + str(x) + "sample" + str(y)
 			sample = Sample(name = name, root = word)
 			sample.save()
 
