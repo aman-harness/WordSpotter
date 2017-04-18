@@ -11,7 +11,15 @@ sampleSizeFraction = 4
 words_remaing = 0
 currentWord = 0
 
+
 def generate_matrix(word, start_from, sample_n):
+	'''
+	Function to generate put the images in databse
+	Arguments:
+	word - Number of words to be put in
+	start_from - The name of word to start from. eg - word3sample4 -- put in 3
+	sample_n - the samples of each word
+	'''
 	for x in range(start_from, start_from + word):
 		print x
 		word = Word(count_n = sample_n, idd = x)
